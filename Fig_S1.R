@@ -1,4 +1,6 @@
-## plot autocorr and island density  
+## plot autocorr of m-values between island-CpGs (drift and static) and other island-CpGs 
+## as well as shore and shelf CpGs as a function of genomic distcance. Depends on CpGIsland_AutoCorr function.
+
 out=CpGIsland_AutoCorr(dat = beM.64, IslNames = Isl.Name, incr = 10)
 
 ## plot pairwise correlation with index at Island
@@ -21,6 +23,4 @@ text(3000,0.9,"Shelf",cex=1.2)
 text(1000,0.9,"Island+Shore",cex=1.2)
 legend('bottomleft',inset=.05,c("static islands","drift islands"),lwd=c(2,2),col=1:2,bty='n',
        y.intersp = 1.5,cex=.9)
-# legend('topright',c("density static","density drift"),col=1:2,lty=c(3,3),
-#       lwd=c(2,2),bty = 'n', y.intersp = 1.3,cex=1.2)
 abline(h=0)
