@@ -1,8 +1,20 @@
+# Figure_3 (heatmap)
+#
 # library(gplots)
 # library(grid)
-# i
-dat = ilogit2(sqM[cpgs.drift,c(1:5,7:11)])
+# 
+# input: CpGs.hypo.drift5.isl; Islands.hypo.drift5; ILS.hypo.drift5
+# methylation data: sqM.52; beM.64; pheno (phenodata) 
+
+cpgs.drift = CpGs.hypo.drift5.isl
+
+# use first 10 NS samples (6th is missing age information)
+dat = ilogit2(sqM.52[cpgs.drift,c(1:5,7:11)])
 out.sq = CpGisl.level.info(set = ILS.hypo.drift5, isls = Islands.hypo.drift5,
+  cpgs = CpGs.hypo.drift5.isl, dat=dat, full=T, prom=F)
+# use all 64 BE samples 
+dat = ilogit2(beM.64[cpgs.drift,])
+out.beB64 = CpGisl.level.info(set = ILS.hypo.drift5, isls = Islands.hypo.drift5,
   cpgs = CpGs.hypo.drift5.isl, dat=dat, full=T, prom=F)
 
 tmp = as.character(pheno$Patient_ID[match(colnames(beM.64),pheno$X)])
