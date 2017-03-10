@@ -1,10 +1,11 @@
-# Figure_3 (heatmap)
-#
-# library(gplots)
-# library(grid)
+#### Figure_3 (heatmap)
+####
+#### library(gplots)
+#### library(grid)
 # 
-# input: CpGs.hypo.drift5.isl; Islands.hypo.drift5; ILS.hypo.drift5
-# methylation data: sqM.52; beM.64; pheno (phenodata) 
+#### input: CpGs.hypo.drift5.isl; Islands.hypo.drift5; ILS.hypo.drift5
+#### BETRNet methylation data: sqM.52, beM.64, lgdM, hgdM, eacM, and eacM.TCGA (TCGA)
+#### patient info (age, sex): pheno (phenodata) 
 
 cpgs.drift = CpGs.hypo.drift5.isl
 
