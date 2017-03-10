@@ -1,7 +1,11 @@
-#### FineStructure.R
+#### Figure 4 (finestructure)
 #### subsample SQ, BE, Dysp, and EAC drift using drift CpGs (CpGs.hypo.drift5.isl)
 
+#### BETRNet methylation data: sqM.52, beM.64, lgdM, hgdM, eacM, and eacM.TCGA (TCGA)
+
 len = length(CpGs.hypo.drift5.isl)
+
+# subsample 1000 out of set CpGs.hypo.drift5.isl
 idx.ran = sample(1:len,1000,replace=F)
 cpgs.drift.ran1k = CpGs.hypo.drift5.isl[idx.ran]
 
