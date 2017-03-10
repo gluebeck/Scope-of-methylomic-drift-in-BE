@@ -2,6 +2,7 @@
 #### subsample SQ, BE, Dysp, and EAC drift using drift CpGs (CpGs.hypo.drift5.isl)
 
 #### BETRNet methylation data: sqM.52, beM.64, lgdM, hgdM, eacM, and eacM.TCGA (TCGA)
+#### patient info (age, sex): pheno (phenodata) 
 
 len = length(CpGs.hypo.drift5.isl)
 
