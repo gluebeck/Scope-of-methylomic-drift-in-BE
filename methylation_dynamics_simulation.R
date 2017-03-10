@@ -1,4 +1,9 @@
-## time vector
+#### Figure 5B
+#### Non-linear drift model with threshold (set at beta=0.2)
+#### simulation keeps track of density profiles every 100 time steps
+#### also keeps track of some island-level methylation trajectories as shown in Fig.S6
+
+# time vector
 a  = seq(0,3000,1)
 len = length(a)
 
