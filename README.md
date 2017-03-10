@@ -1,3 +1,10 @@
 # Scope-of-methylomic-drift-in-BE
 
+# This repository contains R code used to derive the results of the following publication:
+
+Title: Epigenetic Drift in Barrett's Esophagus: molecular clock and evolutionary force
+
+Authors: Luebeck et al.
+
+# Abstract:
 Recent studies have identified age-related epigenetic drift in normal and cancer tissues. However, the evolving patterns, functional consequences, and dynamics of epigenetic drift during cancer progression are largely unexplored. Here we analyze changes in DNA methylomic drift patterns during progression from normal squamous esophagus (NS) tissue to Barrett's esophagus (BE), dysplasia, and esophageal adenocarcinoma (EAC) using 292 tissue samples from 155 Barrett's esophagus (BE) patients, along with other publicly available datasets. We find widespread differential epigenetic drift between NS and BE tissues, affecting 4,024 (24%) of 16,984 normally hypomethylated CpG islands in non-progressed BE patients. Individual drift patterns are heterogeneous, ranging from low drift which is typically unimodal to advanced drift that is bimodal. Complementary analyses of longitudinally-collected biopsy samples from 20 BE patients provide further insights into the time-dependent evolution of the drift patterns. As drift patterns evolve, we identify consistently higher rates for low-to-high than high-to-low methylation transitions among 19/20 patients with serial data. Using publicly available gene expression data, we find that advanced drift is predominantly associated with transcriptional repression rather than over-expression involving genes in important regulatory and developmental pathways. To gain a better understanding of the epigenetic drift dynamics, we also developed a multicellular stochastic model at the CpG island level. Allowing for a threshold-like response of site-specific CpG methylation rates to ambient (regional) levels of methylation, we are able to reproduce the heterogeneous drift patterns in our data, including the observed unimodal to bimodal evolution of drift distributions in all stages of neoplastic progression.   
